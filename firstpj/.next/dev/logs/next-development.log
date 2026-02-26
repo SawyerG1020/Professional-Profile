@@ -1,0 +1,155 @@
+[00:10:50.863] Server  ERROR   ⨯ Error: Cannot find module 'next/dist/client/components/builtin/global-not-found'
+Require stack:
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-server.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/start-server.js
+[00:10:50.901] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-server.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/start-server.js
+[00:10:50.923] Server  ERROR   ⨯ Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-server.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/start-server.js
+[00:10:50.950] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-server.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/start-server.js
+[00:10:51.007] Server  ERROR   ⨯ Error: Cannot find module 'next/dist/client/components/builtin/global-not-found'
+Require stack:
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-server.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/start-server.js
+[00:10:51.026] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-server.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/start-server.js
+[00:10:51.067] Server  ERROR   ⨯ Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-server.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/start-server.js
+[00:10:51.093] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-server.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/start-server.js
+[00:10:51.164] Server  ERROR   ⨯ Error: Cannot find module 'next/dist/client/components/builtin/global-not-found'
+Require stack:
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-server.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/start-server.js
+[00:10:51.194] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-server.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/start-server.js
+[00:10:51.210] Server  ERROR   ⨯ Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-server.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/start-server.js
+[00:10:51.308] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-server.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/start-server.js
+[00:10:51.342] Server  ERROR   ⨯ Error: Cannot find module 'next/dist/client/components/builtin/global-not-found'
+Require stack:
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-server.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/start-server.js
+[00:10:51.399] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-server.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/start-server.js
+[00:10:51.423] Server  ERROR   ⨯ Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-server.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/start-server.js
+[00:10:51.454] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-server.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/start-server.js
+[00:10:51.463] Server  ERROR   Error: Module `sharp` not found. Please run `npm install --cpu=wasm32 sharp` to install it.
+[00:10:51.485] Server  ERROR   ⨯ Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-server.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/start-server.js
+[00:10:51.498] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-server.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/start-server.js
+[00:11:11.824] Server  ERROR   ⨯ Error: Cannot find module 'next/dist/client/components/builtin/global-not-found'
+Require stack:
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-server.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/start-server.js
+[00:11:11.832] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-server.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/start-server.js
+[00:11:11.840] Server  ERROR   ⨯ Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-server.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/start-server.js
+[00:11:11.853] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/router-server.js
+- /Users/sawyer/Desktop/RFID/firstpj/node_modules/next/dist/server/lib/start-server.js
