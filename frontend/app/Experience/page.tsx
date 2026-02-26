@@ -33,17 +33,28 @@ export default async function Home() {
           {experience.map((exp: any) => (
             <div key={exp.id} className="flex flex-col gap-2 border-l-2 border-zinc-100 pl-6 dark:border-zinc-800 hover:border-orange-500 transition-colors">
               <span className="text-lg font-bold text-orange-600 dark:text-orange-400 uppercase tracking-widest">
-                {exp.company}
-              </span>
-              <h2 className="text-1xl font-semibold text-zinc-900 dark:text-zinc-100">
-                {exp.role}
+                  {exp.company === "RFID Lab at Auburn University" ? (
+                    <a href="https://rfid.auburn.edu/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                      {exp.company}
+                    </a>
+                  ) : exp.company === "Prime AE Group, Inc." ? (
+                    <a href="https://www.primeeng.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                      {exp.company}
+                    </a>
+                  ) : (
+                    exp.company
+                  )}
+                </span>
+
+               <h2 className="text-1xl font-semibold text-zinc-900 dark:text-zinc-100">
+              {exp.role}
               </h2>
-              <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed mt-2">
-                {exp.description}
-              </p>
-            </div>
-          ))}
-        </div>
+             <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed mt-2">
+            {exp.description}
+           </p>
+           </div>
+       ))}
+       </div>
 
 
         <Link href="/">

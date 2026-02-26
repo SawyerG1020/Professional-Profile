@@ -5,6 +5,10 @@ import Link from "next/link";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 
+
+
+
+
 async function getBio() {
     const res = await fetch('http://localhost:8080/home',{
       cache: 'no-store'
@@ -50,7 +54,7 @@ export default async function Bio() {
     
 
       
-        <div className="flex flex-wrap gap-4">   
+        <div className="flex flex-wrap gap-4">  
           <Link href="/roll">
             <Button variant="outline">View My Roll</Button>
           </Link>
