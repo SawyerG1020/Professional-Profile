@@ -50,11 +50,28 @@ func main() {
 
 	// Route Definitions
 	router.GET("/projects", func(c *gin.Context) {
-		projects := []Project{
-			{ID: 1, Name: "Personal Desktop Digital Assistant", Description: "Developed a voice activated assistant for. PC using Python Libraries (speech recognition, text-to-speech, automation libraries)."},
-			{ID: 2, Name: "Frontend(React)and Backend(Go) Simple HTTP Application", Description: "Created a simple web application displaying my professional identity such as my bio, experience, role on the team, and projects"},
-		}
-		c.JSON(200, projects)
+
+		results := make(chan Project, 2)
+
+		go func() {
+			results <- Project{
+				ID:          1,
+				Name:        "Personal Desktop Digital Assistant",
+				Description: "Developed a voice activated assistant for. PC using Python Libraries (speech recognition, text-to-speech, automation libraries).",
+			}
+		}()
+		go func() {
+			results <- Project{
+				ID:          2,
+				Name:        "Frontend(React)and Backend(Go) Simple HTTP Application",
+				Description: "Created a simple web application displaying my professional identity such as my bio, experience, role on the team, and projects",
+			}
+		}()
+
+		pj1 := <-results
+		pj2 := <-results
+
+		c.JSON(200, []Project{pj1, pj2})
 	})
 
 	router.GET("/api/data", func(c *gin.Context) {
@@ -72,24 +89,51 @@ func main() {
 	})
 
 	router.GET("/role", func(c *gin.Context) {
-		c.JSON(200, []Role{
-			{ID: 1, Name: "My role is an Undergrad Product Developer on the Product Development Team"},
-			{ID: 2, Name: "My Reponsibilites as part of the Product Development Team are as follows: developing and maintain web-based applications, utilizing technology to streamline and optimize processes, and improve efficiency for all other teams throughout the RFID lab. I am required to pick up new skills such as using resources such as Shadcn, Go, and Bun to develop web applications."},
-		})
+		results := make(chan Role, 2)
+		go func() {
+			results <- Role{
+				ID:   1,
+				Name: "My role is an Undergrad Product Developer on the Product Development Team",
+			}
+		}()
+		go func() {
+			results <- Role{
+				ID:   2,
+				Name: "My Reponsibilites as part of the Product Development Team are as follows: developing and maintain web-based applications, utilizing technology to streamline and optimize processes, and improve efficiency for all other teams throughout the RFID lab. I am required to pick up new skills such as using resources such as Shadcn, Go, and Bun to develop web applications.",
+			}
+		}()
+
+		role1 := <-results
+		role2 := <-results
+
+		c.JSON(200, []Role{role1, role2})
 	})
 
 	router.GET("/experience", func(c *gin.Context) {
-		c.JSON(200, []Experience{
-			{ID: 1,
+
+		results := make(chan Experience, 2)
+		go func() {
+			results <- Experience{
+				ID:          1,
 				Company:     "RFID Lab at Auburn University",
 				Role:        "Undergrad Product Developer",
 				Description: "As an Undergrad Product Developer, I am responsible for developing and maintaining web-based applications that support the lab's research and development efforts. I utilize technology to streamline and optimize processes, improving efficiency for all other teams throughout the RFID lab. I am required to pick up new skills such as using resources such as Shadcn, Go, and Bun to develop web applications.",
-			},
-			{ID: 2,
+			}
+		}()
+		go func() {
+			results <- Experience{
+				ID:          2,
 				Company:     "Prime AE Group, Inc.",
 				Role:        "IT Intern",
-				Description: "As an IT intern I will preforming a variety of tasks such as: assisting with web application development, providing technical support, and using external tools like ArcGis Pro"},
-		})
+				Description: "As an IT intern I will preforming a variety of tasks such as: assisting with web application development, providing technical support, and using external tools like ArcGis Pro",
+			}
+		}()
+
+		exp1 := <-results
+		exp2 := <-results
+
+		c.JSON(200, []Experience{exp1, exp2})
+
 	})
 
 	//run server
