@@ -51,14 +51,14 @@ func main() {
 	var err error
 	db, err = sql.Open("sqlite3", "./projects.db")
 	if err != nil {
-		log.Fatal("Failed to connect to database:", err)
+		log.Fatal("Could not open DB file:", err)
 	}
-	defer db.Close()
 
 	err = db.Ping()
 	if err != nil {
-		log.Fatal("Failed to ping database:", err)
+		log.Fatal("Database is not reachable:", err)
 	}
+	defer db.Close()
 
 	router := gin.Default()
 
@@ -103,7 +103,7 @@ func main() {
 	router.GET("/projectsdb", func(c *gin.Context) {
 		rows, err := db.Query("SELECT id, name, tech_stack, status FROM projects")
 		if err != nil {
-			c.JSON(500, gin.H{"error": "Failed to query database"})
+			c.JSON(500, gin.H{"error": "Failed to query database!"})
 			return
 		}
 		defer rows.Close()
