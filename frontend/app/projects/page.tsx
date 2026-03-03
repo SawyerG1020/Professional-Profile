@@ -5,13 +5,19 @@ import { useProjectsDB } from "@/hooks/useProjectsDB";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import { useEffect } from "react";
 
 export default function ProjectsPage() {
   const { projects: staticProjects, loading: staticLoading } = useProjects();
   const { projects: dbProjects, loading: dbLoading } = useProjectsDB();
+  
+  useEffect(() => {
+    document.title = 'Projects'
+  }, []);
+  
 
   return (
-    // Changed: used 'items-start' and 'max-w-5xl' for more width
+
     <div className="flex min-h-screen justify-center bg-zinc-50 dark:bg-black py-20 px-4">
       <main className="w-full max-w-5xl flex flex-col gap-12 bg-white dark:bg-zinc-950 p-8 md:p-12 rounded-xl shadow-sm border border-zinc-200 dark:border-zinc-800">
         
