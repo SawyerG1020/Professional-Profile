@@ -1,14 +1,28 @@
 package main
 
 import (
+	"database/sql"
+	"log"
+
 	"github.com/gin-gonic/gin"
+	_ "github.com/mattn/go-sqlite3"
 )
 
+var db *sql.DB
+
 // Data Structures
+
 type Project struct {
 	ID          int    `json:"id"`
 	Name        string `json:"name"`
 	Description string `json:"description"`
+}
+
+type ProjectDB struct {
+	ID        int    `json:"id"`
+	Name      string `json:"name"`
+	TechStack string `json:"tech_stack"`
+	Status    string `json:"status"`
 }
 
 type DataResponse struct {
@@ -34,6 +48,18 @@ type Experience struct {
 }
 
 func main() {
+	var err error
+	db, err = sql.Open("sqlite3", "./projects.db")
+	if err != nil {
+		log.Fatal("Failed to connect to database:", err)
+	}
+	defer db.Close()
+
+	err = db.Ping()
+	if err != nil {
+		log.Fatal("Failed to ping database:", err)
+	}
+
 	router := gin.Default()
 
 	// ADD CORS MIDDLEWARE
@@ -72,6 +98,25 @@ func main() {
 		pj2 := <-results
 
 		c.JSON(200, []Project{pj1, pj2})
+	})
+
+	router.GET("/projectsdb", func(c *gin.Context) {
+		rows, err := db.Query("SELECT id, name, tech_stack, status FROM projects")
+		if err != nil {
+			c.JSON(500, gin.H{"error": "Failed to query database"})
+			return
+		}
+		defer rows.Close()
+
+		var dbProjects []ProjectDB
+		for rows.Next() {
+			var p ProjectDB
+			if err := rows.Scan(&p.ID, &p.Name, &p.TechStack, &p.Status); err != nil {
+				continue
+			}
+			dbProjects = append(dbProjects, p)
+		}
+		c.JSON(200, dbProjects)
 	})
 
 	router.GET("/api/data", func(c *gin.Context) {
