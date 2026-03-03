@@ -52,9 +52,7 @@ export default async function RolePage() {
 
 
         <Link href="/">
-            <Button>
-              Go Home
-            </Button>
+            <Button variant="outline" className="w-fit">← Back to Home</Button>
         </Link>
 
         
